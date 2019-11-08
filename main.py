@@ -1,12 +1,6 @@
-# main 1
 import turtle
 q = turtle.Turtle()
-# Case 1
 
-#To do list: 4 figures; 2 Dasha, 2 Lida
-#Lida: do something
-
-#Dasha: magic eggs
 q.speed(0)
 q.penup()
 q.left(120)
@@ -62,7 +56,6 @@ q.right(90)
 q.forward(400)
 q.end_fill()
 
-#dasha: smt normal dom
 q.speed(3)
 q.goto(200, 250)
 q.pendown()
@@ -119,7 +112,6 @@ q.forward(70.7)
 q.end_fill()
 q.penup()
 
-# fffffffff swan
 q.speed(2)
 q.goto(-195, 203)
 q.pendown()
@@ -192,10 +184,3 @@ q.end_fill()
 q.hideturtle()
 q.penup()
 q.forward(1000000000000000)
-
-
-
-
-
-
-
