@@ -1,7 +1,7 @@
 import turtle
 q = turtle.Turtle()
 
-q.speed(0)
+q.speed(4)
 q.penup()
 q.left(120)
 q.forward(350)
@@ -56,7 +56,7 @@ q.right(90)
 q.forward(400)
 q.end_fill()
 
-q.speed(3)
+q.speed(4)
 q.goto(200, 250)
 q.pendown()
 q.pencolor("black")
@@ -112,7 +112,7 @@ q.forward(70.7)
 q.end_fill()
 q.penup()
 
-q.speed(2)
+q.speed(4)
 q.goto(-195, 203)
 q.pendown()
 q.fillcolor("blue")
