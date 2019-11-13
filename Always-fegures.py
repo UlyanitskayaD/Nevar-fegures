@@ -4,23 +4,23 @@ q = turtle.Turtle()
 #TODO 3 def 1 Lida - square, 2 Dasha - tr & par
 
 # Dashas def
-def isosceles_triangle(angle, x, y, a, b, color)
+def isosceles_triangle(angle, x, y, a, b, color):
     q.penup()
     q.goto(x, y)
     q.pendown()
-    q.setheading(angle0)
+    q.setheading(angle)
     q.fillcolor(color)
     q.begin_fill()
     q.right(45)
     q.forward(a)
     q.right(90)
     q.forward(a)
-    q.right(45)
+    q.right(135)
     q.forward(b)
     q.end_fill()
     q.penup()
 
-def parallelogram(angle0, angle1, angle2, x, y, a, b, color)
+def parallelogram(angle0, x, y, angle1, angle2, a, b, color):
     q.penup()
     q.goto(x, y)
     q.pendown()
@@ -42,4 +42,6 @@ def parallelogram(angle0, angle1, angle2, x, y, a, b, color)
 
 #Lidas figures (2)
 
-#Dashas figures (1)
+#Dashas figures (2)
+isosceles_triangle(90, -300, 300, 100, 141.4, "yellow")
+parallelogram(90, -200, 200, 60, 120, 100, 50, "green")
