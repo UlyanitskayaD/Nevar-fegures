@@ -1,7 +1,9 @@
 import turtle
+
 q = turtle.Turtle()
 
-#TODO 3 def 1 Lida - square, 2 Dasha - tr & par
+
+# TODO 3 def 1 Lida - square, 2 Dasha - tr & par
 
 # Dashas def
 def isosceles_triangle(angle, x, y, a, b, color):
@@ -19,6 +21,7 @@ def isosceles_triangle(angle, x, y, a, b, color):
     q.forward(b)
     q.end_fill()
     q.penup()
+
 
 def parallelogram(angle0, x, y, angle1, angle2, a, b, color):
     q.penup()
@@ -38,7 +41,8 @@ def parallelogram(angle0, x, y, angle1, angle2, a, b, color):
     q.end_fill()
     q.penup()
 
-#Lidas def
+
+# Lidas def
 def square(angle0, x, y, a, color):
     q.penup()
     q.goto(x, y)
@@ -57,8 +61,9 @@ def square(angle0, x, y, a, color):
     q.end_fill()
     q.penup()
 
-#Lidas figures (2)
-square(90, -100, -100, 100, "red")
-#Dashas figures (2)
+
+# Lida's figures (2)
+square(90, -150, -150, 100, "red")
+# Dashas figures (2)
 isosceles_triangle(90, -300, 300, 100, 141.4, "yellow")
 parallelogram(90, -200, 200, 60, 120, 100, 50, "green")
