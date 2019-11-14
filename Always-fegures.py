@@ -63,7 +63,7 @@ def square(angle0, x, y, a, color):
 
 
 # Lida's figures (2)
-square(90, -150, -150, 100, "red")
+square(90, -250, -200, 100, "red")
 # Dashas figures (2)
 isosceles_triangle(90, -300, 300, 100, 141.4, "yellow")
 parallelogram(90, -200, 200, 60, 120, 100, 50, "green")
